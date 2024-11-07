@@ -9,10 +9,10 @@ from streamlit.source_util import (
     get_pages,
 )
 
-import app.components.app_mode as am
-import app.components.app_user as au
-from app.components.app_auth import check_password, load_passwords
-from app.javascript.styles import add_styles
+import components.app_mode as am
+import components.app_user as au
+from components.app_auth import check_password, load_passwords
+from javascript.styles import add_styles
 
 
 def load_multipage_app(sv=None):
